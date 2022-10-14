@@ -1,0 +1,88 @@
+/* Productos */
+main h1 {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+  display: block;
+}
+main h2 {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+  display: block;
+}
+
+/* Nosotros */
+.nosotros h1 {
+  padding: 20px;
+  text-align: left;
+  margin-left: 20px;
+  display: block;
+}
+.nosotros .media {
+  display: flex;
+  align-items: flex-start;
+}
+@media (min-width: 767px) {
+  .nosotros .media .column {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .nosotros .media .column {
+    width: 50%;
+  }
+}
+.nosotros .media content {
+  flex: 1;
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+}
+.nosotros .media .image {
+  width: 300px;
+  height: auto;
+  display: inline-box;
+  margin: 10px 10px;
+}
+
+/* Contacto */
+main {
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.mapa h3 {
+  padding: 10px;
+  text-align: left;
+  display: block;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Como comprar */
+h1 {
+  text-decoration: none;
+  text-align: left;
+  margin-top: 20px;
+}
+
+p {
+  padding: 5px;
+}
+
+ol {
+  line-height: 2.5;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+li {
+  display: list-item;
+}/*# sourceMappingURL=main.css.map */
